@@ -60,3 +60,12 @@ header nav ul li a:hover {
     text-align: center;
     color: #fafafa;
 }
+.person h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Oleo Script', cursive;
+}
+.person p{
+    font-size: 20px;
+    font-family: 'Oleo Script', cursive;
+}
