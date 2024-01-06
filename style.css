@@ -15,3 +15,37 @@ header {
     width: 100%;
     box-sizing: border-box;
 }
+header .judul {
+    color: rgb(77, 77, 77);
+    height: 40px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+
+}
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(77, 77, 77);
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover {
+    color: bisque;
+    background-color: azure;
+}
