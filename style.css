@@ -2,4 +2,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: antiquewhite;
+    font-family: sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    position: absolute;
+    background: #ffff;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
 }
