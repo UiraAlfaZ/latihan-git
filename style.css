@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    outline: 0;
     background-repeat: no-repeat;
     font-family: sans-serif;
     background-color: black;
@@ -69,21 +68,12 @@ header nav ul li a:hover {
     font-size: 20px;
     font-family: 'Oleo Script', cursive;
 }
-@media screen and (max-width:700px){
-    .nav h1{
-        
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    
-    .person{
-        z-index: 0;
-        
-    }
-    .person h1{
-        font-size: 1.8rem;
-    }
-    .person p{
-        font-size: .9rem;
-    }
+footer {
+    background-color: #ffff;
+    color: #000;
+    text-align: center;
+}
+footer div {
+    display: inline-block;
+    margin: 0 10px;
 }
