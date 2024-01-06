@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
-    font-family: sans-serif;
-    background-position: center;
+    outline: 0;
     background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-color: black;
 }
+
 header {
     position: absolute;
     background: #ffff;
@@ -48,4 +49,14 @@ header nav ul li a {
 header nav ul li a:hover {
     color: bisque;
     background-color: azure;
+}
+
+.person {  
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fafafa;
 }
